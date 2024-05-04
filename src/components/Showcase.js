@@ -24,6 +24,14 @@ import BackgroundImg from "../assets/Heptagono-sinfondo-redim.png";
 import { fadeInLeftVariant, fadeInRightVariant } from '../utils/Variants';
 
 const Showcase = () => {
+  const Url1 = () => {
+    window.open("https://www.linkedin.com/in/mateo-miron-339bb9247/", '_blank')
+  };
+
+  const Url2 = () => {
+    window.open("https://github.com/MateoMiron", '_blank')
+  };
+
   return (
     <PaddingContainer
         id = "Home"
@@ -42,7 +50,7 @@ const Showcase = () => {
                 initial="hidden"
                 whileInView="visible"
             >
-                <Heading as="h4" size="h4" >Hello!</Heading>
+                <Heading as="h4" size="h4" >Buenas!</Heading>
 
                 <Heading
                     as="h1"
@@ -50,25 +58,25 @@ const Showcase = () => {
                     top="0.5rem"
                     bottom="1rem"
                 >
-                    I' m  <GreenText>Mateo Miron</GreenText>
+                    Soy  <GreenText>Mateo Miron</GreenText>
                 </Heading>
 
                 <Heading as="h3" size="h3">
-                    I' m a <GreenText>Full Stack Developer</GreenText>
+                    Soy un <GreenText>Desarrollador Full Stack</GreenText>
                 </Heading>
 
                 <ParaText as="p" top="2rem" bottom="4rem">
-                    I have experience in creating and designing full-stack websites and web applications.
+                    Tengo experiencia creando y diseñando aplicaciones web y sitios web full-stack
                 </ParaText>
 
                 {/*--social-icons--*/}
                 <FlexContainer gap="20px" responsiveFlex>
-                    <IconContainer color="white" size="1.5rem">
-                        <BsLinkedin />
+                    <IconContainer color="white" size="1.5rem" onClick={Url1}>
+                            <BsLinkedin/>
                     </IconContainer>
 
-                    <IconContainer color="white" size="1.5rem">
-                        <BsGithub />
+                    <IconContainer color="white" size="1.5rem" onClick={Url2}>
+                            <BsGithub/>
                     </IconContainer>
                 </FlexContainer>
             </motion.div>

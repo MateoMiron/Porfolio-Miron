@@ -28,7 +28,7 @@ const MyProjects = () => {
             whileInView="visible"
             size="h4"
         >
-            MY PROJECTS
+            MIS PROYECTOS
         </Heading>
 
         <Heading 
@@ -38,13 +38,13 @@ const MyProjects = () => {
             whileInView="visible"
             size="h2"
         >
-            What <GreenText>I have built</GreenText>
+            Que <GreenText>construí</GreenText>
         </Heading>
 
         {projectDetails.map((project) => (
             <PaddingContainer key={project.id} top="5rem" bottom="5rem" >
                 <Project data={project} />    
-            </ PaddingContainer>
+            </PaddingContainer>
         ))}
 
     </PaddingContainer>

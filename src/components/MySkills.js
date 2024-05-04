@@ -69,14 +69,14 @@ const MySkills = () => {
                 </Heading>
 
                 <ParaText top="2rem" bottom="1.5rem">
-                    Como desarrollador estoy siempre mejorando mi código, o buscando una
-                    forma de hacer mis aplicaciones y páginas más rápidas.
-                    Actualmente me enfoco en el desarrollo con
-                    herramientas como React, TypeScript, Node.js y Next.js.
+                    Tengo experiencia utilizando Python como lenguaje principal para tareas de lógica,
+                    creo y modifico Base de Datos relacionales como MySQL o PostgreSQL, 
+                    trabajo y manipulo Base de Datos no relacionales como MongoDB.
                 </ParaText>
 
                 <ParaText>
-                    Tengo experiencia utilizando ...
+                    Realizé desarrollos completos de aplicaciones usando TypeScript, y herramientas como React,
+                    NodeJS, NextJS, Prisma, y continuamente sigo aprendiendo nuevas formas de implementarlas.
                 </ParaText>
             </motion.div>
         </FlexContainer>

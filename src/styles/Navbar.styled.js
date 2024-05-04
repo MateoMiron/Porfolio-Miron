@@ -40,5 +40,5 @@ export const MenuItem = styled.a`
     font-size: 2.5rem;
     margin-top: 3rem;
     cursor: pointer;
-    text.decoration: none;
+    text-decoration: none;
 `

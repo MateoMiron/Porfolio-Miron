@@ -6,6 +6,7 @@ export const TechStackCard = styled.div`
     color: ${({ theme }) => theme.colors.primary_light };
     padding: 0.3rem 1rem;
     border-radius: 5px;
+    font-weight: bold;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobile}){
         margin-right: 1rem;

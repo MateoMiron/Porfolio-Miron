@@ -19,6 +19,14 @@ import {
 } from "../../styles/MyProject.styled";
 
 const Project = ({ data }) => {
+  const HandleClick = () => {
+    window.open(data.project_url, '_blank')
+  };
+
+  const projectUrl = () => {
+    window.open("https://github.com/MateoMiron/Discord-Clon-1erProy.", '_blank')
+  };
+
   return (
     <FlexContainer 
         direction={data.reverse ? "row-reverse" : false}
@@ -37,7 +45,7 @@ const Project = ({ data }) => {
                 </Heading>
 
                 <IconContainer color="green" size="2rem">
-                    <FaGithub/>
+                    <FaGithub onClick={projectUrl}/>
                 </IconContainer>
             </FlexContainer>
 
@@ -53,7 +61,7 @@ const Project = ({ data }) => {
                 {data.project_desc}
             </ParaText>
 
-            <Button onClick={data.project_url}>Visit App</Button>
+            <Button onClick={HandleClick}>Visitar App</Button>
 
         </motion.div>
 

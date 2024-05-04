@@ -15,12 +15,13 @@ export const SkillsCardContainer = styled.div`
 export const SkillCard = styled.div`
     width: 230px;
     border: 1px solid #fff;
-    padding: 3rem 0;
+    padding: 2rem 0;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: ${({ theme }) => theme.colors.primary_light };
+    box-shadow: 0 2px 9px #6f8a69;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobile}){
         width: 100%;

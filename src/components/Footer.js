@@ -6,12 +6,10 @@ import {
     Heading,
     GreenText,
     FlexContainer,
-    Button,
 } from "../styles/Global.styled";
 
 import { 
     ContactForm, 
-    FormInput, 
     FormLabel, 
 } from '../styles/Footer.styled';
 
@@ -56,33 +54,12 @@ const Footer = () => {
                     initial="hidden"
                     whileInView="visible"
                 >
-                    <PaddingContainer bottom="2rem">
-                        <FormLabel>Name:</FormLabel>
-                        <FormInput
-                            type="text"
-                            placeholder="Enter your name"
-                        />
-                    </PaddingContainer>
 
-                    <PaddingContainer bottom="2rem">
-                        <FormLabel>Email:</FormLabel>
-                        <FormInput
-                            type="email"
-                            placeholder="Enter your mail"
-                        />
+                    <PaddingContainer top="2rem">
+                        <FlexContainer justify="center" as="h2">
+                            <FormLabel>miron.portf@gmail.com</FormLabel>
+                        </FlexContainer>
                     </PaddingContainer>
-
-                    <PaddingContainer bottom="2rem">
-                        <FormLabel>Message:</FormLabel>
-                        <FormInput
-                            as="textarea"
-                            placeholder="Enter your message"
-                        />
-                    </PaddingContainer>
-
-                    <FlexContainer justify="center" responsiveFlex>
-                        <Button>Send Message</Button>
-                    </FlexContainer>
 
                 </ContactForm>
 
@@ -92,5 +69,53 @@ const Footer = () => {
     </PaddingContainer>
   )
 }
-
 export default Footer
+
+/*
+
+------Formulario------
+
+                        <PaddingContainer bottom="2rem">
+                            <FormLabel>Nombre:</FormLabel>
+                            <FormInput
+                                type="text"
+                                placeholder="Ingresá tu nombre"
+                            />
+                        </PaddingContainer>
+
+                        <PaddingContainer bottom="2rem">
+                            <FormLabel>Email:</FormLabel>
+                            <FormInput
+                                type="email"
+                                placeholder="Ingresá tu email"
+                            />
+                        </PaddingContainer>
+
+                        <PaddingContainer bottom="2rem">
+                            <FormLabel>Mensaje:</FormLabel>
+                            <FormInput
+                                as="textarea"
+                                placeholder="Ingresá tu mensaje"
+                            />
+                        </PaddingContainer>
+
+                        <FlexContainer justify="center" responsiveFlex>
+                            <Button onClick={sendMssg}>Enviar Mensaje</Button>
+                        </FlexContainer>
+*/
+
+/*
+    <PaddingContainer top="1rem">
+        <FlexContainer justify="center" as={motion.h3}>
+            <FormLabel>
+                <FaArrowUp/>
+            </FormLabel>
+        </FlexContainer>
+    </PaddingContainer>
+
+    <PaddingContainer>
+        <FlexContainer justify="center">
+            <FormLabel>En caso de querer contactarme directamente</FormLabel>
+        </FlexContainer>
+    </PaddingContainer>
+*/
