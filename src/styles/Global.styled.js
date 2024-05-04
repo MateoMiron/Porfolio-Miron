@@ -36,7 +36,7 @@ export const FlexContainer = styled.div`
     };
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobile}){
-        display: ${({ responsiveFlex }) => responsiveFlex ? "flex" : "block"}
+        display: ${({ responsiveFlex }) => responsiveFlex ? "flex" : "block"};
 
         flex-direction: ${({ responsiveDirection }) => responsiveDirection};
     };

@@ -28,7 +28,7 @@ const MySkills = () => {
         responsiveLeft="1rem"
         responsiveRight="1rem"
     >
-        <FlexContainer 
+        <FlexContainer
             responsiveFlex
             responsiveDirection="column-reverse"
             fullWidthChild
