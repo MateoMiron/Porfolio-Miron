@@ -70,13 +70,14 @@ function MainContent() {
               </div>
             </div>
 
-            <div className="relative z-10 h-[500px] w-full">
-              <div className="neon-box w-[400px] h-[300px] floating mx-auto">
-                <span className="absolute inset-0 flex items-center justify-center text-[120px] font-bold neon-text">
+            <div className="relative z-10 flex justify-center">
+              <div className="neon-box w-full max-w-[400px] h-auto aspect-[4/3] floating mx-auto">
+                <span className="absolute inset-0 flex items-center justify-center text-7xl md:text-[120px] font-bold neon-text">
                   M
                 </span>
               </div>
             </div>
+
           </div>
         </div>
 
