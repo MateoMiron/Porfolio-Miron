@@ -20,7 +20,7 @@ export function TechStack() {
           {/* Vault Boy Image on the left */}
           <div className="relative">
               <img
-                src="./src/vault-boy-pixel.png"
+                src="/vault-boy-pixel.png"
                 alt="Vault Boy"
                 className="w-full h-auto max-w-[400px] mx-auto pixelated floating"
               />

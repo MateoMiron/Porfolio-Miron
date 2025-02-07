@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Carrousel } from './Carrousel';
 
 const vervadosScreenshots = [
-  './src/menuV.jpeg', './src/priV.jpeg', './src/segV.jpeg', './src/terV.jpeg', './src/logroV.jpeg',
+  '/menuV.jpeg', '/priV.jpeg', '/segV.jpeg', '/terV.jpeg', '/logroV.jpeg',
 ];
 
 export function Projects() {
@@ -39,7 +39,7 @@ export function Projects() {
           <div className="absolute inset-0 bg-[url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ic_launcher_background-kzy5w9iuID0ypSVEGpCcSXvCY4A3fr.xml')] bg-cover bg-center opacity-20 group-hover:scale-110 transition-transform duration-1000 ease-in-out"></div>
           <div className="absolute inset-0 flex items-center justify-center">
             <img
-              src="./src/logo.png"
+              src="/logo.png"
               alt="Vervados Logo"
               className="transform group-hover:scale-110 transition-transform duration-500 ease-in-out"
             />
